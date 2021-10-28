@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 
-import imgSample from '../assets/casava.png'
+import imgSample from '../assets/casava.png';
 
 const ProductDetail = () => {
   const productId = useParams();
