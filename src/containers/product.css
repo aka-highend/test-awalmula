@@ -1,0 +1,45 @@
+.loading-data {
+  display: flex;
+  min-height: 100vh;
+}
+
+.loading-data .loading-text {
+  margin: auto;
+}
+
+.page-numbers {
+  list-style: none;
+  display: flex;
+}
+
+.page-numbers li {
+  padding: 10px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.page-numbers li.active {
+  background-color: #476040;
+  color: white;
+}
+
+.page-numbers li button {
+  background-color: transparent;
+  border: none;
+  color: #476040;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.page-numbers li button:hover {
+  background-color: #476040;
+  color: white;
+}
+.page-numbers li button:focus {
+  outline: none;
+}
+
+@media (max-width: 767px) {
+  .product-container {
+    overflow-y: hidden;
+  }
+}
