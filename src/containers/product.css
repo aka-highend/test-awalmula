@@ -1,3 +1,15 @@
+.header-container {
+  background-color: #476040 !important;
+}
+
+.header-container h2 {
+  color: white;
+}
+
+.column-container {
+  margin-top: 50px;
+}
+
 .loading-data {
   display: flex;
   min-height: 100vh;

@@ -1,7 +1,8 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-
 import imgSample from '../assets/casava.png';
+
+// import './product.css'
 
 const ProductDetail = () => {
   const productId = useParams();
@@ -11,7 +12,7 @@ const ProductDetail = () => {
     <div className="ui placeholder segment">
       <div className="ui two column stackable center aligned grid">
         <div className="ui vertical divider">AND</div>
-          <div className="middle aligned row" style={{ marginTop: '50px' }}>
+          <div className="middle aligned row column-container">
             <div className="column lp">
               <img className="ui fluid image" src={imgSample} alt="gmbr-detail" />
             </div>

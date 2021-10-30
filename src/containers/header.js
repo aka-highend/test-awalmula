@@ -1,11 +1,13 @@
 import React from 'react';
 
+import './product.css';
+
 const Header = () => {
   return (
-    <div className="ui fixed menu" style={{ backgroundColor: '#476040' }}>
+    <div className="ui fixed menu header-container">
       <div className="ui container center">
         <a href="/">
-          <h2 style={{ color: 'white' }}>TestAwalMula</h2>
+          <h2>TestAwalMula</h2>
         </a>
       </div>
     </div>
